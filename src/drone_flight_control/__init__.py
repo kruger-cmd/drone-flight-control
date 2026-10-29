@@ -8,10 +8,18 @@ from .position import (
     PositionController,
     Waypoint,
 )
+from .navigation import (
+    WaypointNavigator,
+    AltitudeHold,
+    ObstacleAvoidance,
+)
 
 __all__ = [
     "AttitudeController",
     "QuadcopterDynamics",
     "PositionController",
     "Waypoint",
+    "WaypointNavigator",
+    "AltitudeHold",
+    "ObstacleAvoidance",
 ]
